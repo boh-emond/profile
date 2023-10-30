@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Open+Sans:wght@300;500&display=swap');
+
+body {
+  background-color: antiquewhite;
+  font-family: 'Junge', cursive;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  color: rgb(81, 28, 28);
+}
+
+h1 {
+  color: green;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.banner {
+  font-style: italic;
+  padding: 5px;
+  background-color: rgb(54, 51, 51);
+  border-radius: 0;
+}
+
+h2 {
+  color:blueviolet;
+  font-size: 60px;
+  font-family: 'Junge', 'cursive';
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: strong;
+}
+
+#LOGO {
+  border-radius: 4%;
+
+}
+
+div {
+  border-radius: 10px;
+  border: 1px;
+  padding: 1%;
+  background-color: rgba(238, 130, 238, 0.424);
+  margin: 30px;
+  padding: 20px;
+
+}
+
+.btn-blue {
+  border-radius: 5px;
+  padding: 1%;
+  background-color: rgb(7, 56, 71);
+}
+
+.link-base {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(245, 238, 238);
+  font-weight: strong;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+.flex {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.list {
+  width: fit-content;
+  text-align: justify;
+  margin: 0px;
+}
+
+.container {
+  width: 800px;
+  background-color: transparent;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: blue;
+}
+
+.en-vrai {
+  background-color: chartreuse;
+  color:rgb(10, 10, 10);
+  padding: 0;
+  margin: 0;
+  width: max-content;
+}
+
+.text-justify {
+  text-align: justify;
+}
